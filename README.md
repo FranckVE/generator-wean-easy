@@ -11,24 +11,23 @@ Yeoman generator for NW.js (Node-Webkit). WEAN is coined name for Webkit Express
 * [Bower](http://bower.io/)
 
 ## Installation
-````npm install -g generator-wean
-````
+`npm install -g generator-wean`
 
 You need to have node, grunt, yo and bower installed globally before running the command. Therefore download node from the link and run:
 
-````npm install -g yo grunt bower````
+`npm install -g yo grunt bower`
 
 ### Scaffold an application
 Scaffolding a WEAN application works like every other Yeoman generator. If you have the generator installed, cd to an empty project directory and run:
 
-````yo wean````
+`yo wean`
 
 Interact with Yeoman to create the application.
 
 ## Running
 The application will scaffold completely while generating but there are chances that npm and bower installation might not be successful, probably because of unstable internet connection as npm needs to download NW.js which is > 30mb therefore the application will not run.
 
-If such case occurs, run ````npm install```` and ````bower install` to complete the installation.
+If such case occurs, run `npm install` and `bower install` to complete the installation.
 
 To run the NW application:
 
@@ -44,13 +43,18 @@ The platform placeholder can be win, mac, linux and all. Choose all to build for
 eg: 
 
 `grunt build`
+
 `grunt build:mac`
+
 `grunt build:win`
+
 `grunt build:linux`
+
 `grunt build:all`
 
+
 ## How about Icons
-Yeah. Icons. Icons are very easy to setup for mac and windows. Copy the `.icns` and `.ico` version of your icon named `app-icon`to the root of the project before building and that is all.
+Yeah. Icons. Icons are very easy to setup for mac and windows. Copy the `.icns` and `.ico` version of your icon named `app-icon` to the root of the project before building and that is all.
 
 ## Contributing
 I will really appreciate any contributions to this project (no matter how little). Please use the [guidelines](https://github.com/christiannwamba/generator-wean/blob/master/CONTRIBUTING.md)
