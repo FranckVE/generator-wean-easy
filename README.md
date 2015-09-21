@@ -11,6 +11,8 @@ Yeoman generator for NW.js (Node-Webkit). WEAN is coined name for Webkit Express
 * [Bower](http://bower.io/)
 
 ## Installation
+To install the generator:
+
 `npm install -g generator-wean`
 
 You need to have node, grunt, yo and bower installed globally before running the command. Therefore download node from the link and run:
