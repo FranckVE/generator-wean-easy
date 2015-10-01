@@ -5,6 +5,7 @@
     "description": "<%= description %>",
     "repository": "<%= repository %>",
     "license": "<%= license %>",
+    "node-remote": "localhost",
     "scripts": {
         "start": "nw"
     },
