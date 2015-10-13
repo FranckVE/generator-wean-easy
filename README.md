@@ -2,6 +2,14 @@ generator-wean
 ================================
 >A NW.JS (Node-Webkit) yeoman generator for Node-Webkit, Express, Angular and Mean
 
+NB : this repository is a fork from the original generator : christiannwamba/generator-wean
+the difference here is that the final dependencies installation will not be executed automatically in order to let users (esp. on Mac OS) manually execute a final :
+`sudo npm install`
+and
+`sudo bower install --allow-root`
+Thanks you,
+Franck
+
 Yeoman generator for NW.js (Node-Webkit). WEAN is coined name for Webkit Express Angular Node just like MEAN by  [Arvind Ravulavaru](https://github.com/arvindr21) .
 
 ## Requirements
@@ -13,7 +21,7 @@ Yeoman generator for NW.js (Node-Webkit). WEAN is coined name for Webkit Express
 ## Installation
 To install the generator:
 
-`npm install -g generator-wean`
+`npm install -g generator-wean-ready-to-install`
 
 You need to have node, grunt, yo and bower installed globally before running the command. Therefore download node from the link and run:
 
@@ -22,9 +30,24 @@ You need to have node, grunt, yo and bower installed globally before running the
 ### Scaffold an application
 Scaffolding a WEAN application works like every other Yeoman generator. If you have the generator installed, cd to an empty project directory and run:
 
-`yo wean`
+`yo wean-ready-to-install`
 
 Interact with Yeoman to create the application.
+
+### Install the dependencies manually
+The usual commands are :
+
+`npm install`
+
+`bower install`
+
+**NB:** MAC OS X users will probably need to run :
+
+`sudo npm install`
+
+`sudo bower install --allow-root`
+
+
 
 ## Running
 The application will scaffold completely while generating but there are chances that npm and bower installation might not be successful, probably because of unstable internet connection as npm needs to download NW.js which is > 30mb therefore the application will not run.
