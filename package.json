@@ -4,11 +4,11 @@
   "description": "Yeoman generator for NW.js, Express, Angular and Node",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "https://github.com/christiannwamba/generator-wean",
+  "repository": "https://github.com/FranckVE/generator-wean-ready-to-install",
   "author": {
-    "name": "Christian Nwamba",
-    "email": "nwambachristian@gmail.com",
-    "url": "https://github.com/christiannwamba"
+    "name": "Franck V",
+    "email": "side.emails@gmail.com",
+    "url": "https://github.com/FranckVE"
   },
   "scripts": {
     "test": "mocha"
