@@ -3,12 +3,7 @@ generator-wean-ready-to-install
 >A NW.JS (Node-Webkit) yeoman generator for Node-Webkit, Express, Angular and Mean
 
 NB : this repository is a fork from the original generator : christiannwamba/generator-wean
-the difference here is that the final dependencies installation will not be executed automatically in order to let users (esp. on Mac OS) manually execute a final :
-`sudo npm install`
-and
-`sudo bower install --allow-root`
-Thanks you,
-Franck
+the difference here is that the final dependencies installation will not be executed automatically in order to let users (esp. on Mac OS) manually execute a final : `sudo npm install` and `sudo bower install --allow-root`
 
 Yeoman generator for NW.js (Node-Webkit). WEAN is coined name for Webkit Express Angular Node just like MEAN by  [Arvind Ravulavaru](https://github.com/arvindr21) .
 
