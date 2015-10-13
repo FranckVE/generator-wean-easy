@@ -1,13 +1,13 @@
 {
   "name": "generator-wean-ready-to-install",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Yeoman generator for NW.js, Express, Angular and Node without the final dependencies installation",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "https://github.com/FranckVE/generator-wean-ready-to-install",
   "author": {
-    "name": "Franck V",
-    "email": "side.emails@gmail.com",
+    "name": "FranckVE",
+    "email": "npm.franck.ve@gmail.com",
     "url": "https://github.com/FranckVE"
   },
   "scripts": {
