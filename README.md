@@ -1,4 +1,4 @@
-generator-wean
+generator-wean-ready-to-install
 ================================
 >A NW.JS (Node-Webkit) yeoman generator for Node-Webkit, Express, Angular and Mean
 
