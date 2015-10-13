@@ -9,7 +9,7 @@ module.exports = yeoman.generators.Base.extend({
 
         // Have Yeoman greet the user.
         this.log(yosay(
-            'This is the awesome and amazing ' + chalk.red('WEAN') + ' generator!'
+            'This is the awesome and amazing ' + chalk.red('WEAN-ready-to-install') + ' generator!'
         ));
 
         //Get array of inputs from the user
@@ -152,6 +152,6 @@ module.exports = yeoman.generators.Base.extend({
     },
 
     install: function () {
-        this.installDependencies();
+        this.log('You now need, from the project root, to run "npm install" and "bower install" (maybe "sudo npm install" and "sudo bower install --allow-root")');
     }
 });
