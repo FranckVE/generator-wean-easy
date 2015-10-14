@@ -153,10 +153,10 @@ module.exports = yeoman.generators.Base.extend({
 
     install: function () {
         this.log('');
-        this.log('IMPORTANT : HOW TO FINALIZE THE PROJECT INSTALLATION');
+        this.log(chalk.green('IMPORTANT : HOW TO FINALIZE THE PROJECT INSTALLATION'));
         this.log('You now need to install the dependencies. Just like in any NPM and Bower project.');
         this.log('Verify that you are in the project root folder.');
-        this.log('If you have no sudo/root type of problem you can directly run '+chalk.red('npm install')+' and '+chalk.red('bower install'));
-        this.log('If you have sudo/root errors (like for Mac OS X users) you should run '+chalk.red('sudo npm install')+' and '+chalk.red('sudo bower install --allow-root'));
+        this.log('If you have no sudo/root type of problem you can directly run '+chalk.gray('npm install')+' and '+chalk.gray('bower install'));
+        this.log('If you have sudo/root errors (like for Mac OS X users) you should run '+chalk.gray('sudo npm install')+' and '+chalk.gray('sudo bower install --allow-root'));
     }
 });
