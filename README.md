@@ -91,7 +91,7 @@ I will really appreciate any contributions to this project (no matter how little
 
 The MIT License
 
-Copyright (c) 2015, Franck Vermeulen
+Copyright (c) 2015, FranckVE
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
