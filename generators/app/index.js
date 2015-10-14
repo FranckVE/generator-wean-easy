@@ -9,7 +9,7 @@ module.exports = yeoman.generators.Base.extend({
 
         // Have Yeoman greet the user.
         this.log(yosay(
-            'This is the awesome and amazing ' + chalk.red('WEAN-ready-to-install') + ' generator!'
+            'This is the awesome and amazing ' + chalk.red('WEAN-EASY') + ' generator!'
         ));
 
         //Get array of inputs from the user
@@ -152,6 +152,11 @@ module.exports = yeoman.generators.Base.extend({
     },
 
     install: function () {
-        this.log('You now need, from the project root, to run "npm install" and "bower install" (maybe "sudo npm install" and "sudo bower install --allow-root")');
+        this.log('');
+        this.log('IMPORTANT : HOW TO FINALIZE THE PROJECT INSTALLATION');
+        this.log('You now need to install the dependencies. Just like in any NPM and Bower project.');
+        this.log('Verify that you are in the project root folder.');
+        this.log('If you have no sudo/root type of problem you can directly run '+chalk.red('npm install')+' and '+chalk.red('bower install'));
+        this.log('If you have sudo/root errors (like for Mac OS X users) you should run '+chalk.red('sudo npm install')+' and '+chalk.red('sudo bower install --allow-root'));
     }
 });
