@@ -2,10 +2,12 @@ generator-wean-easy
 ================================
 >**Yeoman Generator for an NWJS full featured project (formerly Node Webkit)**
 >**Features :** NWJS, AngularJS, BootStrap, Grunt, Bower, NodeJS, Express, EditorConfig, EJS (embedded javascript), JSHint, Travis CI, Mocha, etc.
+>
 >It basically generates a NWJS + MEAN project.
->NB IMPORTANT : this generator does not install dependencies automatically at the end of the project generation. It is much better when you have some sudo/root issues like for Mac OS X users. Instructions are provided to easily help complete the process (including specific instructions if needing sudo commands).
+>
+>**NB IMPORTANT** : this generator does not install dependencies automatically at the end of the project generation. It is much better when you have some sudo/root issues like for Mac OS X users. Instructions are provided to easily help complete the process (including specific instructions if needing sudo commands).
 
-NB: WEAN is coined name for Webkit Express Angular Node just like MEAN by [Arvind Ravulavaru](https://github.com/arvindr21) .
+**NB:** WEAN is coined name for Webkit Express Angular Node just like MEAN by [Arvind Ravulavaru](https://github.com/arvindr21) .
 
 ## Requirements
 * [Node](https://nodejs.org)
