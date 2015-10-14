@@ -1,11 +1,14 @@
-generator-wean-ready-to-install
+generator-wean-easy
 ================================
->A NW.JS (Node-Webkit) yeoman generator for Node-Webkit, Express, Angular and Mean
+>**Yeoman Generator for NWJS (formerly Node Webkit) full featured project**
+>**Features :** NWJS, AngularJS, BootStrap, Grunt, Bower, NodeJS, Express, EditorConfig, EJS (embedded javascript), JSHint, Travis CI, Mocha, etc.
+>It basically generates a NWJS + MEAN project.
+>NB IMPORTANT : this generator does not install dependencies automatically at the end of the project generation. It is much better when you have some sudo/root issues like for Mac OS X users. Instructions are provided to easily help complete the process (including specific instructions if needing sudo commands).
 
 NB : this repository is a fork from the original generator : christiannwamba/generator-wean
 the difference here is that the final dependencies installation will not be executed automatically in order to let users (esp. on Mac OS) manually execute a final : `sudo npm install` and `sudo bower install --allow-root`
 
-Yeoman generator for NW.js (Node-Webkit). WEAN is coined name for Webkit Express Angular Node just like MEAN by  [Arvind Ravulavaru](https://github.com/arvindr21) .
+NB: WEAN is coined name for Webkit Express Angular Node just like MEAN by [Arvind Ravulavaru](https://github.com/arvindr21) .
 
 ## Requirements
 * [Node](https://nodejs.org)
@@ -16,7 +19,7 @@ Yeoman generator for NW.js (Node-Webkit). WEAN is coined name for Webkit Express
 ## Installation
 To install the generator:
 
-`npm install -g generator-wean-ready-to-install`
+`npm install -g generator-wean-easy`
 
 You need to have node, grunt, yo and bower installed globally before running the command. Therefore download node from the link and run:
 
@@ -29,7 +32,7 @@ Scaffolding a WEAN application works like every other Yeoman generator. If you h
 
 Interact with Yeoman to create the application.
 
-### Install the dependencies manually
+### Install the dependencies manually after the yo project installation
 The usual commands are :
 
 `npm install`
@@ -80,7 +83,8 @@ Yeah. Icons. Icons are very easy to setup for mac and windows. Copy the `.icns` 
 I will really appreciate any contributions to this project (no matter how little). Please use the [guidelines](https://github.com/christiannwamba/generator-wean/blob/master/CONTRIBUTING.md)
 
 ## Thanks
-* [Arvind Ravulavaru](https://github.com/arvindr21/slush-wean) (Inspiration)
+* [Christian Nwamba](https://github.com/christiannwamba/generator-wean) (Inspiration)
+* [Arvind Ravulavaru](https://github.com/arvindr21/slush-wean)
 * [elmuchaco](http://stackoverflow.com/a/22476910)
 
 
@@ -88,7 +92,7 @@ I will really appreciate any contributions to this project (no matter how little
 
 The MIT License
 
-Copyright (c) 2014, Christian Nwamba
+Copyright (c) 2015, Franck Vermeulen
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
