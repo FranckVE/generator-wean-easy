@@ -1,7 +1,7 @@
 {
   "name": "generator-wean-easy",
   "version": "1.0.6",
-  "description": "Yeoman generator for NWJS (formerly Node WebKit), AngularJS, Bootstrap, Grunt, Bower without the automatic final dependencies installation (better when you have some sudo/root issues). Also included : EditorConfig, EmbeddedJS, Travis CI, Mocha, Express.",
+  "description": "Yeoman generator for NWJS (formerly Node WebKit), AngularJS, Bootstrap, Grunt, Bower without the automatic final dependencies installation (better when you have some sudo/root issues like for Mac OS X users). Also included : EditorConfig, EmbeddedJS, Travis CI, Mocha, Express.",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "https://github.com/FranckVE/generator-wean-easy",
