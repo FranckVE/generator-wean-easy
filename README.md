@@ -49,7 +49,7 @@ The commands are :
 ## Running
 The application will scaffold completely while generating but there are chances that npm and bower installation might not be successful, probably because of unstable internet connection as npm needs to download NW.js which is > 30mb therefore the application will not run.
 
-If such case occurs, run `npm install` and `bower install` to complete the installation.
+If such case occurs, run `npm install` and `bower install` to complete the installation. For users with sudo/root issues like Mac OS X users : `sudo npm install` and `sudo bower install --allow-root`
 
 To run the NW application:
 
