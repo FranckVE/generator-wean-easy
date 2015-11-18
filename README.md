@@ -27,7 +27,7 @@ You need to have node, grunt, yo and bower installed globally before running the
 ### Scaffold an application
 Scaffolding a WEAN application works like every other Yeoman generator. If you have the generator installed, cd to an empty project directory and run:
 
-`yo wean-ready-to-install`
+`yo wean-easy
 
 Interact with Yeoman to create the application.
 
